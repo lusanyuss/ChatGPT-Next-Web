@@ -1,12 +1,15 @@
 .auth-page {
   display: flex;
+  //用来水平和垂直居中子元素
   justify-content: center;
   align-items: center;
+  //分别设置一个元素的高度和宽度为其父元素的100%
   height: 100%;
   width: 100%;
   flex-direction: column;
 
   .auth-logo {
+    //宽度和高度会增加到原来的1.4倍，即变为140%
     transform: scale(1.4);
   }
 
@@ -21,6 +24,7 @@
   }
 
   .auth-input {
+    //上边距和下边距被设置为视口高度（viewport height）的3%
     margin: 3vh 0;
   }
 
